@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
         op1 = op1.substring(0,op1.length-1);
       }
       else{
-        print('nothing to clear');
+        print('nothing clear');
       }
     }
     else if(n == '+' || n == '-' || n == 'x' || n == '/'){
@@ -246,10 +246,4 @@ class _HomeState extends State<Home> {
   }
 }
 
-class  extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
 
