@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
         op1 = op1.substring(0,op1.length-1);
       }
       else{
-        print('nothing clear');
+        print('nothing to clear');
       }
     }
     else if(n == '+' || n == '-' || n == 'x' || n == '/'){
