@@ -318,7 +318,7 @@ class About extends StatelessWidget {
           Text(
               'Calculator',
               style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 30.0,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1.8,
